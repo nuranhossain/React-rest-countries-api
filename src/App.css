@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* css countries */
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.country {
+  border: 2px solid burlywood;
+  margin: auto;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  margin-bottom: 20px;
+}
